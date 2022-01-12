@@ -1,8 +1,8 @@
 package proxy;
 
-public class RealObject implements ExpensiveObject{
+public class RealObject implements ExpensiveObject {
     @Override
     public void test() {
-
+        System.out.println("I am real object");
     }
 }

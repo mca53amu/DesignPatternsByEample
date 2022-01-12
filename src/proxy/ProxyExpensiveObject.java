@@ -14,6 +14,5 @@ public class ProxyExpensiveObject implements ExpensiveObject {
 
         }
         realObject.test();
-
     }
 }
